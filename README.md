@@ -189,3 +189,53 @@ Lifestyle Impact: Both smoking and alcohol frequency appear to have measurable e
 **Dashboard Overview:** The Medical Insurance Insights Dashboard provides an interactive and visual exploration of health, lifestyle, and socioeconomic data. By integrating pivot charts and dynamic slicers, the dashboard allows users to analyze correlations between lifestyle factors (such as smoking and drinking) and medical conditions, while also exploring income and employment patterns. This dashboard serves as a valuable resource to understanding how lifestyle and demographic factors influence health outcomes and economic well-being.
 
 ![Image2](Image2.PNG)
+
+# Project 6
+
+**Title:** [Global Chocolate Sales Performance Dashboard](https://github.com/ZubeiruBukari/ZubeiruBukari.github.io/blob/main/Dashboard1.pbix)
+
+**Tools Used:** Microsoft Power BI (Line Chart, Donut Chart, Bar Chart, Table, Cards, Date Slicer)
+
+**Project Description:** This project focuses on analyzing the global chocolate sales performance for the period between January 2023 and September 2024. The goal was to identify key trends in sales performance across different countries, products, and salespersons.
+
+The dashboard provides an interactive view of sales metrics, enabling stakeholders to monitor business performance, compare results between regions, and identify high-performing products and sales agents.
+
+Key features of the dashboard include:
+
+Sales Trends Over Time: A line chart showing how sales amounts fluctuate monthly and quarterly.
+
+Sales Distribution by Country: A donut chart highlighting how sales are spread across major markets including the USA, UK, India, and Canada.
+
+Top Products by Revenue: A bar chart ranking chocolate products based on total sales.
+
+Sales Performance by Salesperson: A table summarizing total sales per representative.
+
+KPIs: Key performance indicators showing Total Sales (27.99M) and Total Boxes Sold (2M).
+
+Interactive Date Filter: Allows users to adjust the analysis period dynamically.
+
+**Key findings:** Top Markets: The USA (6.28M) and UK (7.66M) emerged as the highest-revenue countries, contributing over half of total global sales.
+
+Leading Products: Orange Choco, Drinking Coco, and 99% Dark & Pure were the top three best-selling products, accounting for a large portion of total sales.
+
+High-Performing Salespersons: Wilone O’Kielt and Van Tuxwell led sales performance, driving significant revenue contributions.
+
+Seasonal Trends: Sales peaked during mid-year periods, suggesting possible seasonal demand increases around specific months.
+
+Global Performance: The dashboard revealed balanced contributions from several key markets (India, Canada, and New Zealand) supporting consistent global growth.
+
+**Dashboard Overview:** This dashboard provides a visually engaging and data-driven overview of company performance. Users can easily track sales by time, region, product, and salesperson using interactive visuals.
+
+This dashboard supports data-driven decision-making by helping managers:
+
+Identify high-revenue markets and products.
+
+Evaluate sales team performance.
+
+Recognize seasonal sales patterns for better inventory and marketing planning.
+
+Adjust sales strategies across countries to optimize performance.
+
+Overall, this dashboard acts as a strategic management tool to monitor business performance, uncover insights, and drive future sales strategies for the chocolate company.
+
+![Image3](Image3.PNG)
