@@ -292,3 +292,128 @@ Make data-backed career or hiring decisions.
 Overall, the dashboard serves as a valuable analytical resource for HR professionals, job seekers, and data analysts, offering actionable insights into the evolving AI & Machine Learning job landscape.
 
 ![Image4](Image4.PNG)
+
+# Project 8
+
+**Title:** [Employee Database Management and Analysis]
+
+**SQL Code:** [Employee Database Management](https://github.com/ZubeiruBukari/ZubeiruBukari.github.io/blob/main/Employee%20Database%20Management%20and%20Analysis) 
+
+**SQL Skills Used:** CREATE TABLE, INSERT INTO — Database schema design and data insertion
+
+SELECT, WHERE, ORDER BY, GROUP BY, JOIN — Data retrieval and filtering
+
+COUNT(), SUM(), AVG(), BETWEEN, LIKE — Data aggregation and condition filtering
+
+String functions (LEFT(), UPPER(), CHARINDEX())
+
+Date functions (GETDATE(), BETWEEN for DOB filtering)
+
+Temporary table creation using SELECT INTO
+
+Ranking and limiting results using TOP
+
+**Project Description:** This project focuses on building and analyzing an employee management database using SQL. It demonstrates the creation of relational database tables, data insertion, and the use of SQL queries to perform both data retrieval and data manipulation tasks.
+
+The database consists of two main tables:
+
+Employee_Info — stores employee demographic and departmental details such as name, department, project, address, date of birth, and gender.
+
+Employee_Position — stores job-related data including position, date of joining, and salary.
+
+Through this project, I performed several SQL operations to gain insights into the workforce, employee demographics, and organizational structure. The goal was to strengthen my SQL data handling and querying skills while understanding how relational databases can support human resource management systems (HRMS).
+
+Project Objectives
+
+Design and create normalized tables with appropriate constraints and primary keys.
+
+Insert and organize employee data efficiently.
+
+Retrieve, manipulate, and aggregate employee data using advanced SQL queries.
+
+Analyze employee demographics, salary distribution, and departmental composition.
+
+Apply string, date, and aggregate functions to extract meaningful insights.
+
+Key Analytical Queries and Insights
+1. Retrieve Employee Names in Uppercase
+
+Demonstrated string manipulation using the UPPER() function to standardize name formatting.
+
+2. Count of Employees Working in the HR Department
+
+Found that two employees belong to the HR department, providing insights into departmental size.
+
+3. Retrieve the Current Date
+
+Used SQL Server’s built-in function GETDATE() to extract and format the system date.
+
+4. Extract the First Four Characters of Employee Last Names
+
+Utilized the LEFT() function to derive initials or prefixes of surnames for indexing or abbreviation.
+
+5. Extract City Names from the Address Field
+
+Used CHARINDEX() to parse city names from addresses like “Hyderabad(HYD)” → “Hyderabad”.
+
+6. Create a New Table Based on an Existing One
+
+Showcased data replication using SELECT INTO for backup or table cloning purposes.
+
+7. Find Employees with Salaries Between 50,000 and 100,000
+
+Filtered employees within a specific pay range using the BETWEEN operator.
+
+8. Retrieve Names Beginning with ‘S’
+
+Queried employees with first names starting with “S”, showing pattern matching via LIKE.
+
+9. Retrieve Top 3 Highest Salaries
+
+Applied TOP and ORDER BY to rank and display the top three earners.
+
+10. Concatenate First and Last Names into Full Name
+
+Combined columns using string concatenation for user-friendly data output.
+
+11. Group Employees by Gender Born Between 1970–1995
+
+Grouped results by gender to understand workforce demographics across age ranges.
+
+12. Sort Employee Records by Last Name (Descending)
+
+Demonstrated ordered retrieval for alphabetic reporting.
+
+13. Fetch Employees with Last Name Ending in ‘A’
+
+Applied wildcards and underscores in the LIKE pattern for advanced filtering.
+
+14. Exclude Specific Employees
+
+Showcased the use of NOT IN to exclude certain records from results.
+
+15. Retrieve Employees Living in Delhi
+
+Used LIKE for partial string match to fetch records by location.
+
+16. Retrieve All Employees Who Hold Managerial Positions
+
+Filtered records where EmpPosition is “Manager”.
+
+17. Department-wise Employee Count (Ascending)
+
+Grouped employees by department and ranked them by count.
+
+18. Retrieve Male Employees in HR Department
+
+Combined multiple conditions with AND to filter data precisely.
+
+19. Retrieve Employees Who Have Joining Dates Recorded
+
+Used INNER JOIN to merge employee info with their joining details.
+
+20. Retrieve Two Minimum and Maximum Salaries
+
+Ranked and filtered salary data to find the top two and bottom two salary earners.
+
+**Technology used:** SQL server
