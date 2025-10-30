@@ -72,3 +72,34 @@ Combining data from multiple tables using JOIN operations to ensure integrated i
 This project highlights how SQL can be used to effectively organize, query, and analyze workforce-related data, supporting informed decision-making in HR and business operations.
 
 **Technology used:** SQL server
+
+# Project 3
+
+**Title:** Workplace Safety Data
+
+**SQL Code:** [Workplace Database-SQL Codes](https://github.com/ZubeiruBukari/ZubeiruBukari.github.io/blob/main/Workplace_Safety.SQL)
+
+**SQL Skills Used:** Data Retrieval (SELECT): Queried and extracted specific information from the database.
+Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
+Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
+Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+
+**Project Description:** This project focuses on analyzing workplace safety data from multiple plants to uncover patterns and insights related to employee incidents, costs, and safety performance. Using SQL Server Management Studio (SSMS), I explored the dataset systematically to identify critical factors such as the most common incident types, departments with the highest costs, and trends across time periods and demographics.
+
+The dataset — Workplace Safety Data — contains information on various incidents, including the date, plant, department, report type, incident type, injury location, gender, age group, days lost, and incident cost. The goal of this analysis was to support data-driven decision-making in occupational health and safety management, helping organizations minimize risks, manage costs, and improve workplace safety culture.
+
+Insights derived include:
+
+Identify which plants and departments record the highest number of incidents.
+
+Evaluate the total and average cost of incidents by category.
+
+Analyze incident distribution by shift, gender, and age group.
+
+Determine which incident types result in the highest days lost and cost.
+
+Examine temporal trends by year and month to monitor safety performance.
+
+Support proactive risk management and improve safety strategies based on data insights.
+
+**Technology used:** SQL server
