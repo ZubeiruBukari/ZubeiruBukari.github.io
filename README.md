@@ -79,28 +79,57 @@ This project highlights how SQL can be used to effectively organize, query, and 
 
 **SQL Code:** [Workplace Database-SQL Codes](https://github.com/ZubeiruBukari/ZubeiruBukari.github.io/blob/main/Workplace_Safety.SQL)
 
-**SQL Skills Used:** Data Retrieval (SELECT): Queried and extracted specific information from the database.
-Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+**SQL Skills Used:** Data Selection and Filtering: Used SELECT, WHERE, and TOP to extract specific subsets of data.
 
-**Project Description:** This project focuses on analyzing workplace safety data from multiple plants to uncover patterns and insights related to employee incidents, costs, and safety performance. Using SQL Server Management Studio (SSMS), I explored the dataset systematically to identify critical factors such as the most common incident types, departments with the highest costs, and trends across time periods and demographics.
+Data Aggregation: Applied aggregate functions such as SUM(), COUNT(), and AVG() for cost and frequency analysis.
 
-The dataset — Workplace Safety Data — contains information on various incidents, including the date, plant, department, report type, incident type, injury location, gender, age group, days lost, and incident cost. The goal of this analysis was to support data-driven decision-making in occupational health and safety management, helping organizations minimize risks, manage costs, and improve workplace safety culture.
+Grouping and Ordering: Used GROUP BY and ORDER BY to summarize and rank data.
 
-Insights derived include:
+Conditional Logic: Implemented CASE WHEN statements to convert numerical month data into month names.
 
-Identify which plants and departments record the highest number of incidents.
+Data Comparison: Used conditional filters such as >, BETWEEN, and LIKE for targeted queries.
 
-Evaluate the total and average cost of incidents by category.
+Data Categorization: Segregated incidents by variables such as shift type, report type, and department.
 
-Analyze incident distribution by shift, gender, and age group.
+Joins (conceptually): The dataset design can be extended to join with other HR or maintenance datasets for deeper insights.
 
-Determine which incident types result in the highest days lost and cost.
+**Project Description:** This project focuses on analyzing workplace safety incidents using SQL to extract meaningful insights from an organizational safety dataset named “Workplace Safety Data.” The primary objective of this project is to understand the patterns, costs, and frequency of safety incidents across different plants, departments, shifts, and demographic categories. This analysis helps management identify high-risk areas, evaluate incident trends, and design targeted safety interventions to minimize future occurrences.
 
-Examine temporal trends by year and month to monitor safety performance.
+The dataset contains key attributes such as Plant, Department, Incident Type, Report Type, Incident Cost, Days Lost, Age Group, Gender, Year, and Month. By leveraging SQL queries, several data-driven insights were derived to address business and safety-related questions.
 
-Support proactive risk management and improve safety strategies based on data insights.
+Objectives of the Project:
+
+To identify the distribution of workplace incidents across different plants, departments, and shifts.
+
+To analyze the financial impact of incidents by calculating total and average incident costs.
+
+To determine which incident types and departments have the highest risk factors.
+
+To assess demographic trends such as gender and age group most affected by specific incident types.
+
+To provide data-driven recommendations for improving safety practices.
+
+1. Identified plants with the highest frequency of workplace incidents, helping target safety audits.
+
+2. Departments with higher incident costs were flagged for financial and safety reviews.
+
+3. Identified Incident Type with Highest Days Lost
+
+4. Distribution of Incident Types by Shift
+
+5. Revealed that specific shifts (e.g., Night shifts) had higher rates of certain incident types.
+
+Average Incident Cost by Injury Location
+
+6. Injury cost analysis helped identify which injury types were most expensive to manage.
+
+7. The age group most vulnerable to workplace incidents was identified, enabling targeted training.
+
+8. Plants with frequent “Lost Time” incidents were pinpointed for operational reviews.
+
+9. Showed how total safety costs fluctuated annually, indicating improvement or deterioration in safety performance.
+
+10. Helped detect seasonal trends where incident frequency peaked (e.g., higher in summer months).
 
 **Technology used:** SQL server
 
