@@ -103,3 +103,45 @@ Examine temporal trends by year and month to monitor safety performance.
 Support proactive risk management and improve safety strategies based on data insights.
 
 **Technology used:** SQL server
+
+# Project 4
+
+**Title:** Sales Data
+
+**Tools Used:** Microsoft Excel (Data Cleaning and Formatting, Pivot Tables, Pivot Charts, Slicers,Conditional Formatting, Timelines)
+
+**Project Description:** This project involved analyzing global sales data to evaluate the performance of different products, customer segments, and countries. The goal was to uncover insights into profitability, sales trends, and market performance across various regions and product categories. The dashboard created provides a comprehensive overview of key business metrics such as sales, profit, and gross sales distribution, allowing stakeholders to monitor performance efficiently and make data-driven decisions.
+
+Dashboard Features:
+
+Gross Sales by Country: Visualizes total gross sales across Canada, France, Germany, Mexico, and the USA.
+
+Monthly Sales Trend: Displays month-by-month sales trends across years, highlighting seasonality and performance fluctuations.
+
+Profit by Segment: Shows contribution to profit from different customer segments such as Government, Midmarket, Enterprise, Channel Partners, and Small Business.
+
+Sum of Sales by Products: Compares total sales across product categories like Carretera, Paseo, VTT, Velo, Amarilla, and Montana.
+
+Interactive Filters:
+
+Month: Analyze sales and profit for specific months.
+
+Country: Focus on regional performance.
+
+Product: Explore product-specific insights.
+
+Segment: Drill down into performance by market segment.
+
+**Key findings:** Top Performing Regions: Canada and the USA recorded the highest gross sales, indicating strong market presence and customer engagement.
+
+Sales Seasonality: Noticeable sales fluctuations throughout the year, with peaks during later months (Nov–Dec), suggesting seasonal demand trends.
+
+Segment Profitability: The Government and Midmarket segments generated the largest portion of profits, highlighting stable and high-value clients.
+
+Product Performance: The Paseo and VTT products emerged as the best-selling items, contributing significantly to overall revenue.
+
+Market Opportunities: Lower sales in certain countries and segments indicate potential areas for targeted marketing and product optimization.
+
+**Dashboard Overview:** The Sales and Profit Analysis Dashboard provides an intuitive and interactive platform for visualizing sales performance. By combining multiple pivot charts and slicers, it enables users to easily filter data and identify key trends in revenue and profitability across different dimensions. This dashboard serves as a valuable tool for decision-makers to track performance, assess market dynamics, and make informed strategic choices regarding product focus, regional investment, and customer segmentation.
+
+![Image1](Image1.PNG)
