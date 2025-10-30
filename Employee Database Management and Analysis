@@ -1,0 +1,221 @@
+CREATE TABLE Employee_Info (
+	EmpID INT NOT NULL,
+	EmpFname VARCHAR (20),
+	EmpLname VARCHAR (20),
+	Department VARCHAR (20),
+	Project VARCHAR (20),
+	Address VARCHAR (20),
+	DOB DATE,
+	Gender VARCHAR (2)
+CONSTRAINT pk_Employee_Info PRIMARY KEY (EmpID)
+)
+
+INSERT INTO Employee_Info
+VALUES
+	(1,'Sanjay','Mehra','HR','P1','Hyderabad(HYD)','01/12/1976','M'),
+	(2,'Ananya','Mishra','Admin','P2','Delhi(DEL)','02/05/1968','F'),
+	(3,'Rohan','Diwan','Account','P3','Mumbai(BOM)','01/01/1980','M'),
+	(4,'Sonia','Kulkarni','HR','P1','Hyderabad(HYD)','02/05/1992','F'),
+	(5,'Ankit','Kapoor','Admin','P2','Delhi(DEL)','03/07/1994','M')
+
+SELECT *
+FROM Employee_Info
+
+CREATE TABLE Employee_Position (
+	EmpID INT NOT NULL,
+	EmpPosition VARCHAR (20),
+	DateOfJoining DATE,
+	Salary INT NOT NULL
+CONSTRAINT pk_Employee_Position PRIMARY KEY(EmpID)
+)
+
+INSERT INTO Employee_Position
+VALUES
+	(1,'Manager','01/05/2022',500000),
+	(2,'Executive','02/05/2022',75000),
+	(3,'Manager','01/05/2022',90000),
+	(4,'Lead','02/05/2022',85000),
+	(5,'Executive','01/05/2022',300000)
+
+SELECT *
+FROM Employee_Position
+
+--Write a query to fetch the EmpFname from the EmployeeInfo table in the upper case and use the ALIAS name as EmpName.
+SELECT
+	UPPER(EmpFname) AS EmpName
+FROM
+	Employee_Info
+
+--Write a query to fetch the number of employees working in the department ‘HR’.
+
+SELECT 
+	COUNT(EmpID) AS Number_Of_Employees,
+	Department
+FROM Employee_Info
+WHERE
+	Department = 'HR'
+GROUP BY
+	Department
+
+--Write a query to get the current date.
+
+SELECT GETDATE() AS CurrentDate
+SELECT CAST(GETDATE() AS DATE) AS CurrentDate
+
+--Write a query to retrieve the first four characters of  EmpLname from the EmployeeInfo table.
+
+SELECT
+	LEFT(EmpLname, 4) AS FirstFourChars
+FROM
+	Employee_Info
+
+--Write a query to fetch only the place name(string before brackets) from the Address column of EmployeeInfo table.
+
+SELECT
+	Address,
+	LEFT(Address,CHARINDEX('(',Address)-1)
+FROM
+	Employee_Info
+
+--Write a query to create a new table that consists of data and structure copied from the other table.
+
+SELECT *
+INTO New_Table
+FROM
+	Employee_Info
+
+--Write a query to find all the employees whose salary is between 50000 to 100000.
+
+SELECT 
+	Salary
+FROM
+	Employee_Position
+WHERE 
+	Salary BETWEEN 50000 AND 100000
+
+--Write a query to find the names of employees that begin with ‘S’
+
+SELECT 
+	EmpFname
+FROM
+	Employee_Info
+WHERE EmpFname LIKE 'S%'
+
+--Write a query to fetch top N records.
+
+SELECT TOP 3*
+FROM
+	Employee_Position
+ORDER BY
+	Salary DESC
+
+--Write a query to retrieve the EmpFname and EmpLname in a single column as “FullName”. The first name and the last name must be separated with space.
+
+SELECT 
+	EmpFname + ' ' + EmpLname AS FullName
+FROM Employee_Info
+
+--Write a query find number of employees whose DOB is between 02/05/1970 to 31/12/1995 and are grouped according to gender
+
+SELECT
+	COUNT(EmpID),
+	Gender
+FROM
+	Employee_Info
+WHERE
+	DOB BETWEEN '1970-05-02' AND '1995-12-31'
+GROUP BY
+	Gender
+
+--Write a query to fetch all the records from the EmployeeInfo table ordered by EmpLname in descending order and Department in the ascending order.
+
+SELECT *
+FROM
+	Employee_Info
+ORDER BY
+	EmpLname DESC
+
+--Write a query to fetch details of employees whose EmpLname ends with an alphabet ‘A’ and contains five alphabets.
+SELECT 
+	EmpLname
+FROM Employee_Info
+WHERE EmpLname LIKE '____a'
+
+--Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
+
+SELECT 
+	EmpFname
+FROM Employee_Info
+WHERE EmpFname NOT IN ('Sanjay','Sonia')
+
+--Write a query to fetch details of employees with the address as “DELHI(DEL)”
+SELECT *
+FROM 
+	Employee_Info
+WHERE
+	Address LIKE 'DELHI(DEL)'
+
+--Write a query to fetch all employees who also hold the managerial position.
+SELECT *
+FROM
+	Employee_Position
+WHERE 
+	EmpPosition LIKE 'Manager'
+
+--Write a query to fetch the department-wise count of employees sorted by department’s count in ascending order
+
+SELECT 
+	Department,
+	COUNT(EmpID) AS EmployeeCount	
+FROM
+	Employee_Info
+GROUP BY 
+	Department
+ORDER BY 
+	EmployeeCount ASC
+
+--Write a query to fecth Male employees in HR department
+
+SELECT 
+	Department,
+	Gender	
+FROM
+	Employee_Info
+WHERE Department = 'HR'
+AND
+	Gender = 'M'
+
+--Write a SQL query to retrieve employee details from EmployeeInfo table who have a date of joining in the EmployeePosition table
+
+SELECT 
+	ei.EmpID,
+	ei.EmpFname,
+	ei.EmpLname,
+	ei.Department,
+	ei.Project,
+	ei.Address,
+	ei.DOB,
+	ei.Gender,
+	ep.DateOfJoining
+FROM
+	Employee_Info AS ei
+INNER JOIN
+	Employee_Position ep ON ep.EmpID = ei.EmpID
+WHERE 
+	ep.DateOfJoining IS NOT NULL
+
+--Write a query to retrieve two minimum and maximum salaries from the EmployeePosition table
+
+SELECT TOP 2
+	Salary
+FROM
+	Employee_Position
+ORDER BY
+	Salary ASC
+
+SELECT TOP 2
+	Salary
+FROM
+	Employee_Position
+ORDER BY
+	Salary DESC
