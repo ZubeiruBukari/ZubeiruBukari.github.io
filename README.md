@@ -106,7 +106,7 @@ Support proactive risk management and improve safety strategies based on data in
 
 # Project 4
 
-**Title:** Sales Data
+**Title:** [Sales Data](https://github.com/ZubeiruBukari/ZubeiruBukari.github.io/blob/main/Sales%20data.xlsx)
 
 **Tools Used:** Microsoft Excel (Data Cleaning and Formatting, Pivot Tables, Pivot Charts, Slicers,Conditional Formatting, Timelines)
 
