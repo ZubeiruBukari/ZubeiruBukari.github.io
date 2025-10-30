@@ -145,3 +145,47 @@ Market Opportunities: Lower sales in certain countries and segments indicate pot
 **Dashboard Overview:** The Sales and Profit Analysis Dashboard provides an intuitive and interactive platform for visualizing sales performance. By combining multiple pivot charts and slicers, it enables users to easily filter data and identify key trends in revenue and profitability across different dimensions. This dashboard serves as a valuable tool for decision-makers to track performance, assess market dynamics, and make informed strategic choices regarding product focus, regional investment, and customer segmentation.
 
 ![Image1](Image1.PNG)
+
+# Project 5
+
+**Title:** Medical Insurance Insights 
+
+**Tools Used:** Microsoft Excel (Data Cleaning and Formatting, Pivot Tables, Pivot Charts, Slicers,Conditional Formatting, Timelines)
+
+**Project Description:** This project focuses on analyzing a medical insurance dataset to uncover insights about health conditions, income, and lifestyle factors such as smoking and alcohol consumption. The dashboard helps visualize relationships between demographic attributes, health history, and lifestyle habits, providing a comprehensive view of health and socioeconomic patterns among individuals.
+
+The goal of this analysis is to assist healthcare analysts, policy makers, and insurance providers in understanding correlations that may influence health risks and insurance considerations.
+
+Dashboard Features:
+
+Average of Cardiovascular Disease and Cancer History by Smoking Status: Identifies how smoking habits relate to major health conditions.
+
+Employment Status Breakdown: Displays the proportion of individuals across employment categories, offering socioeconomic context.
+
+Average Income by Education Level: Highlights the impact of educational attainment on income levels.
+
+Average of Kidney and Liver Disease by Alcohol Frequency: Analyzes the relationship between drinking habits and related diseases.
+
+Interactive Filters (Slicers):
+
+Smoker Status: View insights for current, former, or non-smokers.
+
+Alcohol Frequency: Filter by daily, occasional, weekly, or no alcohol consumption.
+
+Education Level: Explore how education correlates with health and income.
+
+Employment Status: Analyze differences based on job category.
+
+**Key findings:** Smoking and Disease Risk: Current and former smokers showed a higher average rate of cardiovascular disease compared to non-smokers.
+
+Income and Education: Individuals with doctoral degrees had the highest average income, while those without a high school education had the lowest.
+
+Alcohol Consumption and Health: Daily alcohol consumers displayed higher averages of liver and kidney diseases, indicating potential health risks associated with frequent drinking.
+
+Employment Distribution: The majority of individuals were employed, but a notable portion were retired, suggesting a balanced demographic mix across age groups.
+
+Lifestyle Impact: Both smoking and alcohol frequency appear to have measurable effects on chronic disease prevalence, providing useful insight for insurance risk assessments.
+
+**Dashboard Overview:** The Medical Insurance Insights Dashboard provides an interactive and visual exploration of health, lifestyle, and socioeconomic data. By integrating pivot charts and dynamic slicers, the dashboard allows users to analyze correlations between lifestyle factors (such as smoking and drinking) and medical conditions, while also exploring income and employment patterns. This dashboard serves as a valuable resource to understanding how lifestyle and demographic factors influence health outcomes and economic well-being.
+
+![Image2](Image2.PNG)
