@@ -239,3 +239,56 @@ Adjust sales strategies across countries to optimize performance.
 Overall, this dashboard acts as a strategic management tool to monitor business performance, uncover insights, and drive future sales strategies for the chocolate company.
 
 ![Image3](Image3.PNG)
+
+# Project 7
+
+**Title:** [AI & Machine Learning Jobs Insights Dashboard](https://github.com/ZubeiruBukari/ZubeiruBukari.github.io/blob/main/AI%20%26%20Machine%20Learning%20Jobs%20Insights.xlsx)
+
+**Tools Used:** Microsoft Excel (Pivot Tables, Pivot Charts, Slicers, Bar Chart, Column Chart, Line Charts) 
+
+**Project Description:** This project analyzes AI and Machine Learning job market data to uncover key insights into how education level, job role, and experience influence salary distribution.
+
+The dashboard provides a comprehensive view of workforce trends in the AI & ML domain, helping both employers and professionals understand compensation patterns and career progression paths.
+
+Key Features of the Dashboard Include:
+
+Average Salary by Education Level: Displays how salaries vary between Bachelor’s, Master’s, and PhD holders.
+
+Count of Job Titles by Education Level: Shows which education levels dominate in the AI/ML job market.
+
+Average Years of Experience by Job Title: Highlights how experience varies across different AI and tech-related positions.
+
+Average Salary by Job Title: Provides insight into which roles offer the highest salaries within the industry.
+
+Interactive Filters: Enable users to explore the data dynamically by selecting specific job titles, years of experience, or education levels.
+
+**Key findings:** Education and Salary Relationship:
+Employees with PhDs earn significantly higher average salaries, often exceeding $160,000, compared to Master’s and Bachelor’s degree holders.
+
+Dominant Education Level:
+The majority of positions are held by professionals with Bachelor’s degrees, although Master’s degree holders are well-represented in mid-to-senior roles.
+
+Experience Impact:
+Higher years of experience correlate with higher salaries across most job titles, particularly for managerial and technical leadership roles.
+
+Top Paying Roles:
+Positions such as Chief Technology Officer, Research Director, Senior Data Scientist, and Director of Product Management stand out as the most lucrative roles.
+
+Industry Trend Insight:
+The AI & Machine Learning sector rewards advanced education and technical expertise, showing clear progression from entry-level analyst roles to senior managerial or research positions.
+
+**Dashboard Overview:** The AI & Machine Learning Jobs Insights Dashboard presents an interactive and data-driven summary of salary and experience trends across job roles and education levels.
+
+This tool helps users:
+
+Identify how education impacts salary potential.
+
+Understand experience distribution across different roles.
+
+Compare compensation across AI, ML, and data-related job titles.
+
+Make data-backed career or hiring decisions.
+
+Overall, the dashboard serves as a valuable analytical resource for HR professionals, job seekers, and data analysts, offering actionable insights into the evolving AI & Machine Learning job landscape.
+
+![Image4](Image4.PNG)
